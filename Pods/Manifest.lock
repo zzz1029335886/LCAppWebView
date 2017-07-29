@@ -1,0 +1,50 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - DACircularProgress (2.3.1)
+  - IDMPhotoBrowser (1.9.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - IQKeyboardManager (4.0.10)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - pop (1.0.9)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - IDMPhotoBrowser (~> 1.9.1)
+  - IQKeyboardManager (~> 4.0.7)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - SDWebImage (~> 3.7.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  IDMPhotoBrowser: 35e8ba559a88f2a8be4ae04d7fd424665344ba06
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 5ce043628c3890d3df3e3800f0aff4e50dad3fc9
+
+COCOAPODS: 1.1.1
