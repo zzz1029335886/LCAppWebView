@@ -1,0 +1,19 @@
+JavaScript 与 Objective-C 基本交互
+
+方法名:AppJS2OC_Base
+
+图片浏览器:
+{
+    "action":"ImageBrowser",
+    "model" : {
+        "urls":["url1","url2"]
+    }
+}
+
+视频播放器:
+{
+    "action":"VideoPlayer",
+    "model" : {
+        "url":"url1"
+    }
+}

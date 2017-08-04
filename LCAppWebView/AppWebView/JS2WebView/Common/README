@@ -1,0 +1,33 @@
+JavaScript 与 Objective-C 公共交互
+
+方法名:AppJS2OC_Comment
+
+登录:
+{
+    "type":"Comment"
+    "action":"Login",
+    "model" : {
+        “type”:"phone"
+        “userName”:"phone"
+        “password”:"phone"
+
+    }
+}
+
+退出:
+{
+    "type":"Comment",
+    "action":"Logout",
+        "model" : {
+
+        }
+}
+
+自动登录:
+{
+    "type":"Comment",
+    "action":"Login",
+    "model" : {
+        "keyString":"keyString"
+    }
+}

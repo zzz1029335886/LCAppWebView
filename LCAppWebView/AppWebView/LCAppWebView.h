@@ -6,8 +6,11 @@
 //  Copyright © 2017年 凌创科技. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <WebKit/WebKit.h>
 
-@interface LCAppWebView : NSObject
+@interface LCAppWebView : WKWebView
++ (instancetype)webView;
+
++ (NSString *)getCookieString:(NSURL *)url;
 
 @end
