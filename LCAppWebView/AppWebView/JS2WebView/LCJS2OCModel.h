@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "MJExtension.h"
+#import <MJExtension/MJExtension.h>
 #import "LCAppWebViewController.h"
 
 // 枚举上传图片类型

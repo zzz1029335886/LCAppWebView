@@ -308,6 +308,8 @@ static BOOL _hide = YES;
         CGFloat height = endRect.size.height * 0.0;
         
         startRect = CGRectMake(endRect.origin.x + (endRect.size.width - width) * 0.5, endRect.origin.y + (endRect.size.height - height) * 0.5, width, height);
+    }else{
+        startRect = CGRectZero;
     }
     
     return [self showView:view withStartFrame:startRect withEndFrame:endRect withDirection:direction];

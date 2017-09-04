@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LCAppWebView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "AppWebView by zerry"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     Litchon App WebView
                    DESC
 
-  s.homepage     = "https://github.com/zzz1029335886@qq.com/LCAppWebView"
+  s.homepage     = "https://github.com/zzz1029335886/LCAppWebView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "Litchon Inc"
+  s.license      = "Litchon Inc zzz"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -65,10 +65,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/zzz1029335886/LCAppWebView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zzz1029335886/LCAppWebView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AppWebView", "AppWebView/**/*.{h,m}"
+  s.source_files  = "LCAppWebView/AppWebView/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -133,6 +133,11 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+    s.dependency "AFNetworking", "~> 3.1.0"
+    s.dependency "SDWebImage", "~> 3.7.4"
+    s.dependency "MJRefresh", "~> 3.1.12"
+    s.dependency "MJExtension", "~> 3.0.13"
+    s.dependency "IDMPhotoBrowser", "~> 1.9.1"
+    s.dependency "IQKeyboardManager", "~> 4.0.7"
 
 end

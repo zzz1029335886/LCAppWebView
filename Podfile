@@ -7,4 +7,5 @@ target “LCAppWebView” do
     pod 'MJExtension', '~> 3.0.13’
     pod 'IDMPhotoBrowser', '~> 1.9.1’
     pod 'IQKeyboardManager', '~> 4.0.7’
+    
 end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68749D9C1F345E22006B5395 /* LCAppShowTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68749D9B1F345E22006B5395 /* LCAppShowTableView.m */; };
+		68749D9F1F346946006B5395 /* LCAppShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68749D9E1F346946006B5395 /* LCAppShareView.m */; };
+		68749DA21F3469D5006B5395 /* LCAppShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68749DA11F3469D5006B5395 /* LCAppShowView.m */; };
+		68749DA51F346CB8006B5395 /* GetResultWithURLParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 68749DA41F346CB8006B5395 /* GetResultWithURLParams.m */; };
+		68749DA71F347957006B5395 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68749DA61F347957006B5395 /* UIKit.framework */; };
+		68749DA91F34795C006B5395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68749DA81F34795C006B5395 /* Foundation.framework */; };
 		6888340E1F2C77F200D65F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888340D1F2C77F200D65F65 /* main.m */; };
 		688834111F2C77F200D65F65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834101F2C77F200D65F65 /* AppDelegate.m */; };
 		688834141F2C77F200D65F65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834131F2C77F200D65F65 /* ViewController.m */; };
@@ -15,10 +21,43 @@
 		6888341C1F2C77F200D65F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6888341B1F2C77F200D65F65 /* Assets.xcassets */; };
 		6888341F1F2C77F200D65F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6888341D1F2C77F200D65F65 /* LaunchScreen.storyboard */; };
 		688834291F2C8A1C00D65F65 /* LCAppWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834281F2C8A1C00D65F65 /* LCAppWebView.m */; };
+		6888343A1F2C982D00D65F65 /* LCAppWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834391F2C982D00D65F65 /* LCAppWebViewController.m */; };
+		6888343D1F2C989800D65F65 /* LCAppWebViewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888343C1F2C989800D65F65 /* LCAppWebViewNavigationController.m */; };
+		6888343F1F2C98BD00D65F65 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6888343E1F2C98BD00D65F65 /* WebKit.framework */; };
+		688834431F2C9A4800D65F65 /* LCAppWebViewControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834421F2C9A4800D65F65 /* LCAppWebViewControllerConfig.m */; };
+		688834461F2C9A8500D65F65 /* LCAppWebViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834451F2C9A8500D65F65 /* LCAppWebViewConfig.m */; };
+		688834491F2C9B0B00D65F65 /* LCAppWebViewNavigationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834481F2C9B0B00D65F65 /* LCAppWebViewNavigationConfig.m */; };
+		6888344C1F2C9D9200D65F65 /* UIColor+LCAppWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888344B1F2C9D9200D65F65 /* UIColor+LCAppWebView.m */; };
+		6888344F1F2C9EB300D65F65 /* LCTopWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888344E1F2C9EB300D65F65 /* LCTopWindowViewController.m */; };
+		688834521F2CA74900D65F65 /* LCAppWebViewController+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834511F2CA74900D65F65 /* LCAppWebViewController+JS.m */; };
+		688834811F2CA78800D65F65 /* LCJS2OCBaseFinishModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834571F2CA78800D65F65 /* LCJS2OCBaseFinishModel.m */; };
+		688834821F2CA78800D65F65 /* LCJS2OCBaseImageBrowserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834591F2CA78800D65F65 /* LCJS2OCBaseImageBrowserModel.m */; };
+		688834831F2CA78800D65F65 /* LCJS2OCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888345B1F2CA78800D65F65 /* LCJS2OCBaseModel.m */; };
+		688834841F2CA78800D65F65 /* LCJS2OCBaseSetNavModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888345D1F2CA78800D65F65 /* LCJS2OCBaseSetNavModel.m */; };
+		688834851F2CA78800D65F65 /* LCJS2OCBaseVideoPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888345F1F2CA78800D65F65 /* LCJS2OCBaseVideoPlayerModel.m */; };
+		688834861F2CA78800D65F65 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 688834601F2CA78800D65F65 /* README */; };
+		6888348F1F2CA78800D65F65 /* LCJS2OCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834731F2CA78800D65F65 /* LCJS2OCModel.m */; };
+		688834901F2CA78800D65F65 /* LCJS2OCThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834761F2CA78800D65F65 /* LCJS2OCThird.m */; };
+		688834911F2CA78800D65F65 /* LCJS2OCThirdAliModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834781F2CA78800D65F65 /* LCJS2OCThirdAliModel.m */; };
+		688834921F2CA78800D65F65 /* LCJS2OCThirdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888347A1F2CA78800D65F65 /* LCJS2OCThirdModel.m */; };
+		688834931F2CA78800D65F65 /* LCJS2OCThirdQQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888347C1F2CA78800D65F65 /* LCJS2OCThirdQQModel.m */; };
+		688834941F2CA78800D65F65 /* LCJS2OCThirdShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888347E1F2CA78800D65F65 /* LCJS2OCThirdShareModel.m */; };
+		688834951F2CA78800D65F65 /* LCJS2OCThirdWechatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834801F2CA78800D65F65 /* LCJS2OCThirdWechatModel.m */; };
+		688834AA1F2CA83900D65F65 /* LCAppWebViewController+OC2JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 688834A91F2CA83900D65F65 /* LCAppWebViewController+OC2JS.m */; };
 		9954F857AC014CC539D012DE /* libPods-LCAppWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7159847B615BDEC70DF78C7 /* libPods-LCAppWebView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68749D9A1F345E22006B5395 /* LCAppShowTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppShowTableView.h; sourceTree = "<group>"; };
+		68749D9B1F345E22006B5395 /* LCAppShowTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppShowTableView.m; sourceTree = "<group>"; };
+		68749D9D1F346946006B5395 /* LCAppShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppShareView.h; sourceTree = "<group>"; };
+		68749D9E1F346946006B5395 /* LCAppShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppShareView.m; sourceTree = "<group>"; };
+		68749DA01F3469D5006B5395 /* LCAppShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppShowView.h; sourceTree = "<group>"; };
+		68749DA11F3469D5006B5395 /* LCAppShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppShowView.m; sourceTree = "<group>"; };
+		68749DA31F346CB8006B5395 /* GetResultWithURLParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetResultWithURLParams.h; sourceTree = "<group>"; };
+		68749DA41F346CB8006B5395 /* GetResultWithURLParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetResultWithURLParams.m; sourceTree = "<group>"; };
+		68749DA61F347957006B5395 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68749DA81F34795C006B5395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		688834091F2C77F200D65F65 /* LCAppWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCAppWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6888340D1F2C77F200D65F65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6888340F1F2C77F200D65F65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,6 +71,50 @@
 		688834201F2C77F200D65F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		688834271F2C8A1C00D65F65 /* LCAppWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppWebView.h; sourceTree = "<group>"; };
 		688834281F2C8A1C00D65F65 /* LCAppWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppWebView.m; sourceTree = "<group>"; };
+		688834381F2C982D00D65F65 /* LCAppWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppWebViewController.h; sourceTree = "<group>"; };
+		688834391F2C982D00D65F65 /* LCAppWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppWebViewController.m; sourceTree = "<group>"; };
+		6888343B1F2C989800D65F65 /* LCAppWebViewNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppWebViewNavigationController.h; sourceTree = "<group>"; };
+		6888343C1F2C989800D65F65 /* LCAppWebViewNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppWebViewNavigationController.m; sourceTree = "<group>"; };
+		6888343E1F2C98BD00D65F65 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		688834411F2C9A4800D65F65 /* LCAppWebViewControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppWebViewControllerConfig.h; sourceTree = "<group>"; };
+		688834421F2C9A4800D65F65 /* LCAppWebViewControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppWebViewControllerConfig.m; sourceTree = "<group>"; };
+		688834441F2C9A8500D65F65 /* LCAppWebViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppWebViewConfig.h; sourceTree = "<group>"; };
+		688834451F2C9A8500D65F65 /* LCAppWebViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppWebViewConfig.m; sourceTree = "<group>"; };
+		688834471F2C9B0B00D65F65 /* LCAppWebViewNavigationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAppWebViewNavigationConfig.h; sourceTree = "<group>"; };
+		688834481F2C9B0B00D65F65 /* LCAppWebViewNavigationConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAppWebViewNavigationConfig.m; sourceTree = "<group>"; };
+		6888344A1F2C9D9200D65F65 /* UIColor+LCAppWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LCAppWebView.h"; sourceTree = "<group>"; };
+		6888344B1F2C9D9200D65F65 /* UIColor+LCAppWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LCAppWebView.m"; sourceTree = "<group>"; };
+		6888344D1F2C9EB300D65F65 /* LCTopWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTopWindowViewController.h; sourceTree = "<group>"; };
+		6888344E1F2C9EB300D65F65 /* LCTopWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTopWindowViewController.m; sourceTree = "<group>"; };
+		688834501F2CA74900D65F65 /* LCAppWebViewController+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCAppWebViewController+JS.h"; sourceTree = "<group>"; };
+		688834511F2CA74900D65F65 /* LCAppWebViewController+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCAppWebViewController+JS.m"; sourceTree = "<group>"; };
+		688834561F2CA78800D65F65 /* LCJS2OCBaseFinishModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCBaseFinishModel.h; sourceTree = "<group>"; };
+		688834571F2CA78800D65F65 /* LCJS2OCBaseFinishModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCBaseFinishModel.m; sourceTree = "<group>"; };
+		688834581F2CA78800D65F65 /* LCJS2OCBaseImageBrowserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCBaseImageBrowserModel.h; sourceTree = "<group>"; };
+		688834591F2CA78800D65F65 /* LCJS2OCBaseImageBrowserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCBaseImageBrowserModel.m; sourceTree = "<group>"; };
+		6888345A1F2CA78800D65F65 /* LCJS2OCBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCBaseModel.h; sourceTree = "<group>"; };
+		6888345B1F2CA78800D65F65 /* LCJS2OCBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCBaseModel.m; sourceTree = "<group>"; };
+		6888345C1F2CA78800D65F65 /* LCJS2OCBaseSetNavModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCBaseSetNavModel.h; sourceTree = "<group>"; };
+		6888345D1F2CA78800D65F65 /* LCJS2OCBaseSetNavModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCBaseSetNavModel.m; sourceTree = "<group>"; };
+		6888345E1F2CA78800D65F65 /* LCJS2OCBaseVideoPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCBaseVideoPlayerModel.h; sourceTree = "<group>"; };
+		6888345F1F2CA78800D65F65 /* LCJS2OCBaseVideoPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCBaseVideoPlayerModel.m; sourceTree = "<group>"; };
+		688834601F2CA78800D65F65 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		688834721F2CA78800D65F65 /* LCJS2OCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCModel.h; sourceTree = "<group>"; };
+		688834731F2CA78800D65F65 /* LCJS2OCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCModel.m; sourceTree = "<group>"; };
+		688834751F2CA78800D65F65 /* LCJS2OCThird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCThird.h; sourceTree = "<group>"; };
+		688834761F2CA78800D65F65 /* LCJS2OCThird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCThird.m; sourceTree = "<group>"; };
+		688834771F2CA78800D65F65 /* LCJS2OCThirdAliModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCThirdAliModel.h; sourceTree = "<group>"; };
+		688834781F2CA78800D65F65 /* LCJS2OCThirdAliModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCThirdAliModel.m; sourceTree = "<group>"; };
+		688834791F2CA78800D65F65 /* LCJS2OCThirdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCThirdModel.h; sourceTree = "<group>"; };
+		6888347A1F2CA78800D65F65 /* LCJS2OCThirdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCThirdModel.m; sourceTree = "<group>"; };
+		6888347B1F2CA78800D65F65 /* LCJS2OCThirdQQModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCThirdQQModel.h; sourceTree = "<group>"; };
+		6888347C1F2CA78800D65F65 /* LCJS2OCThirdQQModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCThirdQQModel.m; sourceTree = "<group>"; };
+		6888347D1F2CA78800D65F65 /* LCJS2OCThirdShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCThirdShareModel.h; sourceTree = "<group>"; };
+		6888347E1F2CA78800D65F65 /* LCJS2OCThirdShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCThirdShareModel.m; sourceTree = "<group>"; };
+		6888347F1F2CA78800D65F65 /* LCJS2OCThirdWechatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCJS2OCThirdWechatModel.h; sourceTree = "<group>"; };
+		688834801F2CA78800D65F65 /* LCJS2OCThirdWechatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCJS2OCThirdWechatModel.m; sourceTree = "<group>"; };
+		688834A81F2CA83900D65F65 /* LCAppWebViewController+OC2JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCAppWebViewController+OC2JS.h"; sourceTree = "<group>"; };
+		688834A91F2CA83900D65F65 /* LCAppWebViewController+OC2JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCAppWebViewController+OC2JS.m"; sourceTree = "<group>"; };
 		72CBAC96F7BFBE3271806053 /* Pods-LCAppWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCAppWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCAppWebView/Pods-LCAppWebView.debug.xcconfig"; sourceTree = "<group>"; };
 		A0CE513F8EBA3EA06190FD45 /* Pods-LCAppWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCAppWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCAppWebView/Pods-LCAppWebView.release.xcconfig"; sourceTree = "<group>"; };
 		E7159847B615BDEC70DF78C7 /* libPods-LCAppWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCAppWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68749DA91F34795C006B5395 /* Foundation.framework in Frameworks */,
+				68749DA71F347957006B5395 /* UIKit.framework in Frameworks */,
+				6888343F1F2C98BD00D65F65 /* WebKit.framework in Frameworks */,
 				9954F857AC014CC539D012DE /* libPods-LCAppWebView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,15 +191,133 @@
 		688834261F2C8A0600D65F65 /* AppWebView */ = {
 			isa = PBXGroup;
 			children = (
+				6888342E1F2C975C00D65F65 /* Category */,
+				6888342D1F2C975600D65F65 /* Model */,
+				6888342C1F2C975000D65F65 /* View */,
+				6888342A1F2C973500D65F65 /* Controller */,
+			);
+			path = AppWebView;
+			sourceTree = "<group>";
+		};
+		6888342A1F2C973500D65F65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6888343B1F2C989800D65F65 /* LCAppWebViewNavigationController.h */,
+				6888343C1F2C989800D65F65 /* LCAppWebViewNavigationController.m */,
+				6888344D1F2C9EB300D65F65 /* LCTopWindowViewController.h */,
+				6888344E1F2C9EB300D65F65 /* LCTopWindowViewController.m */,
+				688834381F2C982D00D65F65 /* LCAppWebViewController.h */,
+				688834391F2C982D00D65F65 /* LCAppWebViewController.m */,
+				688834501F2CA74900D65F65 /* LCAppWebViewController+JS.h */,
+				688834511F2CA74900D65F65 /* LCAppWebViewController+JS.m */,
+				688834A81F2CA83900D65F65 /* LCAppWebViewController+OC2JS.h */,
+				688834A91F2CA83900D65F65 /* LCAppWebViewController+OC2JS.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6888342C1F2C975000D65F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68749D9A1F345E22006B5395 /* LCAppShowTableView.h */,
+				68749D9B1F345E22006B5395 /* LCAppShowTableView.m */,
+				68749D9D1F346946006B5395 /* LCAppShareView.h */,
+				68749D9E1F346946006B5395 /* LCAppShareView.m */,
+				68749DA01F3469D5006B5395 /* LCAppShowView.h */,
+				68749DA11F3469D5006B5395 /* LCAppShowView.m */,
 				688834271F2C8A1C00D65F65 /* LCAppWebView.h */,
 				688834281F2C8A1C00D65F65 /* LCAppWebView.m */,
 			);
-			path = AppWebView;
+			name = View;
+			sourceTree = "<group>";
+		};
+		6888342D1F2C975600D65F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68749DA31F346CB8006B5395 /* GetResultWithURLParams.h */,
+				68749DA41F346CB8006B5395 /* GetResultWithURLParams.m */,
+				688834541F2CA78800D65F65 /* JS2WebView */,
+				688834401F2C99AC00D65F65 /* Config */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6888342E1F2C975C00D65F65 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6888344A1F2C9D9200D65F65 /* UIColor+LCAppWebView.h */,
+				6888344B1F2C9D9200D65F65 /* UIColor+LCAppWebView.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		688834401F2C99AC00D65F65 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				688834441F2C9A8500D65F65 /* LCAppWebViewConfig.h */,
+				688834451F2C9A8500D65F65 /* LCAppWebViewConfig.m */,
+				688834411F2C9A4800D65F65 /* LCAppWebViewControllerConfig.h */,
+				688834421F2C9A4800D65F65 /* LCAppWebViewControllerConfig.m */,
+				688834471F2C9B0B00D65F65 /* LCAppWebViewNavigationConfig.h */,
+				688834481F2C9B0B00D65F65 /* LCAppWebViewNavigationConfig.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		688834541F2CA78800D65F65 /* JS2WebView */ = {
+			isa = PBXGroup;
+			children = (
+				688834741F2CA78800D65F65 /* Third */,
+				688834551F2CA78800D65F65 /* Base */,
+				688834721F2CA78800D65F65 /* LCJS2OCModel.h */,
+				688834731F2CA78800D65F65 /* LCJS2OCModel.m */,
+			);
+			path = JS2WebView;
+			sourceTree = "<group>";
+		};
+		688834551F2CA78800D65F65 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				688834561F2CA78800D65F65 /* LCJS2OCBaseFinishModel.h */,
+				688834571F2CA78800D65F65 /* LCJS2OCBaseFinishModel.m */,
+				688834581F2CA78800D65F65 /* LCJS2OCBaseImageBrowserModel.h */,
+				688834591F2CA78800D65F65 /* LCJS2OCBaseImageBrowserModel.m */,
+				6888345A1F2CA78800D65F65 /* LCJS2OCBaseModel.h */,
+				6888345B1F2CA78800D65F65 /* LCJS2OCBaseModel.m */,
+				6888345C1F2CA78800D65F65 /* LCJS2OCBaseSetNavModel.h */,
+				6888345D1F2CA78800D65F65 /* LCJS2OCBaseSetNavModel.m */,
+				6888345E1F2CA78800D65F65 /* LCJS2OCBaseVideoPlayerModel.h */,
+				6888345F1F2CA78800D65F65 /* LCJS2OCBaseVideoPlayerModel.m */,
+				688834601F2CA78800D65F65 /* README */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		688834741F2CA78800D65F65 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				688834751F2CA78800D65F65 /* LCJS2OCThird.h */,
+				688834761F2CA78800D65F65 /* LCJS2OCThird.m */,
+				688834771F2CA78800D65F65 /* LCJS2OCThirdAliModel.h */,
+				688834781F2CA78800D65F65 /* LCJS2OCThirdAliModel.m */,
+				688834791F2CA78800D65F65 /* LCJS2OCThirdModel.h */,
+				6888347A1F2CA78800D65F65 /* LCJS2OCThirdModel.m */,
+				6888347B1F2CA78800D65F65 /* LCJS2OCThirdQQModel.h */,
+				6888347C1F2CA78800D65F65 /* LCJS2OCThirdQQModel.m */,
+				6888347D1F2CA78800D65F65 /* LCJS2OCThirdShareModel.h */,
+				6888347E1F2CA78800D65F65 /* LCJS2OCThirdShareModel.m */,
+				6888347F1F2CA78800D65F65 /* LCJS2OCThirdWechatModel.h */,
+				688834801F2CA78800D65F65 /* LCJS2OCThirdWechatModel.m */,
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 		7A3A14C386342BAD07B65844 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				68749DA81F34795C006B5395 /* Foundation.framework */,
+				68749DA61F347957006B5395 /* UIKit.framework */,
+				6888343E1F2C98BD00D65F65 /* WebKit.framework */,
 				E7159847B615BDEC70DF78C7 /* libPods-LCAppWebView.a */,
 			);
 			name = Frameworks;
@@ -181,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688834861F2CA78800D65F65 /* README in Resources */,
 				6888341F1F2C77F200D65F65 /* LaunchScreen.storyboard in Resources */,
 				6888341C1F2C77F200D65F65 /* Assets.xcassets in Resources */,
 				688834171F2C77F200D65F65 /* Main.storyboard in Resources */,
@@ -242,10 +447,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68749D9C1F345E22006B5395 /* LCAppShowTableView.m in Sources */,
+				688834821F2CA78800D65F65 /* LCJS2OCBaseImageBrowserModel.m in Sources */,
+				6888343A1F2C982D00D65F65 /* LCAppWebViewController.m in Sources */,
+				6888344C1F2C9D9200D65F65 /* UIColor+LCAppWebView.m in Sources */,
 				688834141F2C77F200D65F65 /* ViewController.m in Sources */,
+				68749D9F1F346946006B5395 /* LCAppShareView.m in Sources */,
+				688834841F2CA78800D65F65 /* LCJS2OCBaseSetNavModel.m in Sources */,
+				688834901F2CA78800D65F65 /* LCJS2OCThird.m in Sources */,
+				688834921F2CA78800D65F65 /* LCJS2OCThirdModel.m in Sources */,
 				688834291F2C8A1C00D65F65 /* LCAppWebView.m in Sources */,
 				688834111F2C77F200D65F65 /* AppDelegate.m in Sources */,
+				688834AA1F2CA83900D65F65 /* LCAppWebViewController+OC2JS.m in Sources */,
+				688834951F2CA78800D65F65 /* LCJS2OCThirdWechatModel.m in Sources */,
+				688834461F2C9A8500D65F65 /* LCAppWebViewConfig.m in Sources */,
+				688834521F2CA74900D65F65 /* LCAppWebViewController+JS.m in Sources */,
+				6888348F1F2CA78800D65F65 /* LCJS2OCModel.m in Sources */,
+				688834431F2C9A4800D65F65 /* LCAppWebViewControllerConfig.m in Sources */,
+				68749DA51F346CB8006B5395 /* GetResultWithURLParams.m in Sources */,
+				688834851F2CA78800D65F65 /* LCJS2OCBaseVideoPlayerModel.m in Sources */,
+				688834831F2CA78800D65F65 /* LCJS2OCBaseModel.m in Sources */,
+				688834931F2CA78800D65F65 /* LCJS2OCThirdQQModel.m in Sources */,
+				6888344F1F2C9EB300D65F65 /* LCTopWindowViewController.m in Sources */,
+				688834911F2CA78800D65F65 /* LCJS2OCThirdAliModel.m in Sources */,
+				6888343D1F2C989800D65F65 /* LCAppWebViewNavigationController.m in Sources */,
+				688834811F2CA78800D65F65 /* LCJS2OCBaseFinishModel.m in Sources */,
 				6888341A1F2C77F200D65F65 /* LCAppWebView.xcdatamodeld in Sources */,
+				68749DA21F3469D5006B5395 /* LCAppShowView.m in Sources */,
+				688834941F2CA78800D65F65 /* LCJS2OCThirdShareModel.m in Sources */,
+				688834491F2C9B0B00D65F65 /* LCAppWebViewNavigationConfig.m in Sources */,
 				6888340E1F2C77F200D65F65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +603,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchon.LCAppWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -387,6 +618,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchon.LCAppWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
